@@ -1,0 +1,21 @@
+@use '../../scss/abstracts/variables.module.scss' as variables;
+
+
+.container_breadcrumbs {
+    margin: 16px 0 0;
+    padding: 0;
+
+    .breadcrumb_item {        
+        font-size: variables.$size-14;
+        display: inline-block;
+
+        a {
+            color: variables.$gray-6;
+        }
+
+        .breadcrumb_chevron {
+            max-width: 10px;
+            margin: 0 4px;
+        }
+    }
+}

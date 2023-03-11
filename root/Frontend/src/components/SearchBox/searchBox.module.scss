@@ -1,0 +1,33 @@
+@use '../../scss/abstracts/variables.module.scss' as variables;
+
+.container_styles {
+    background-color: variables.$yellow;
+
+    .nav_logo {
+        max-height: 34px;
+        margin: 12px 0;
+        cursor: pointer;
+    }
+
+    .form_input {
+        font-size: 18px;
+        margin: 12px 0;
+        border: none;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    button.form_button {
+        margin: 12px 0;
+        background-color: variables.$gray-e;
+        border: none;
+
+        
+
+        &:disabled {
+            background-color: variables.$gray-e;
+        }
+    }
+}

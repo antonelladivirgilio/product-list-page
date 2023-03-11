@@ -1,0 +1,6 @@
+@use "./scss/abstracts/variables.module.scss" as variables;
+
+.container_outlet {
+    background-color: variables.$gray-e;
+    min-height: 100vh;
+}
